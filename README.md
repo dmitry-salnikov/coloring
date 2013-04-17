@@ -47,15 +47,25 @@ console.log('TEST2'.yellow.underline);
 console.log(coloring.green('test'));
 ```
 
-
-```js
-
 ## coloring#alias
 
 Alias a coloring style
 
 ```js
 coloring.alias('warn', 'yellow');
+```
+
+## coloring#disabled
+set to true to disable coloring or pass the `--no-colors` flag to disable coloring
+
+```js
+// disable coloring
+
+coloring.disabled = true;
+
+// re-enable coloring
+
+coloring.disabled = true;
 ```
 
 ## Examples
