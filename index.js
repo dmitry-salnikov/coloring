@@ -45,7 +45,7 @@ function addProperty(color, func) {
 
 Object.keys(styles).forEach(function(style) {
   addProperty(style, function() {
-    if (Coloring.disabled) { return this; }
+    if (Coloring.disabled) { return '' + this; }
     var open =  '\x1B[' + styles[style][0] + 'm ';
     var close = '\x1B[' + styles[style][1] + 'm ';
     return  '' + open + this + close;

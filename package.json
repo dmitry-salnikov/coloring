@@ -1,6 +1,6 @@
 {
   "name": "coloring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command Line Text Coloring",
   "main": "index.js",
   "scripts": {
