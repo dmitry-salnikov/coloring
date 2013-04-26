@@ -1,10 +1,9 @@
 {
   "name": "coloring",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Command Line Text Coloring",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/euforic/coloring.git"
@@ -17,5 +16,11 @@
   ],
   "author": "Christian Sullivan <cs@euforic.co>",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.9.0",
+    "debug": "~0.7.2"
+  },
+  "node": "0.8.x || 0.10.x"
 }
