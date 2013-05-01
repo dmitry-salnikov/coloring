@@ -1,6 +1,8 @@
 # Coloring
 Node.js terminal CLI text coloring
 
+[![NPM version](https://badge.fury.io/js/coloring.png)](https://npmjs.org/package/coloring)
+
 ## Installation
 
 ```
